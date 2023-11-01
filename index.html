@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="colorjoe/colorjoe.css">
+    <link rel="stylesheet" href="resources/style.css">
+    <script src="colorjoe/colorjoe.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="colorjoe"></div>
+        <div class="config">
+            <div class="config-title">Selected Color</div>
+            <div class="selected-color-text">#009578</div>
+            <div class="selected-color"> </div>
+            <div class="config-title">Saved Colors</div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+            <div class="saved-color"></div>
+        </div>
+    </div>
+    <script>
+        const cj = colorjoe.rgb(document.querySelector(".colorjoe"));
+        cj.show();
+    </script>
+</body>
+</html>
