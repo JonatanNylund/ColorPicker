@@ -45,5 +45,10 @@ body{
 .saved-color{
     height: 15px;
     border: 1px solid #eeeeee;
+    border-radius: 3px;
     cursor: pointer;
+}
+
+.saved-color:not(:last-of-type){
+    margin-bottom: 5px;
 }
