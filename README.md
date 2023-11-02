@@ -6,6 +6,6 @@ https://github.com/bebraw/colorjoe
 
 https://github.com/bebraw
 
-I have folowed a tutorial by Dcode so all of the code is originaly from him. 
+I have followed a tutorial by Dcode so all of the code is originally from him. 
 
 https://github.com/dcode-youtube/color-picker-with-local-storage
